@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+*{
+  padding: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 80vh;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 3px solid white;
+}
+.btn{
+  font-size: 2.5rem;
+  background: transparent;
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  /* need to add transition animation */
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1, h2{
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.optn{
+  position: fixed;
+  top: 0;
+}
+.close-btn:hover {
+  color: var(--clr-red-light);
+}
+.sidebar-header{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+.sidebar{
+  display: none;
+}
+.menu{
+  margin: 0 auto;
+}
+.links{
+  margin: 5rem auto;
+}
+.links a {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  /* needs to add color */
+}
+.links a :hover{
+  /* needs to add color */
+}
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+  width: 78vh;
+  
+}
+.social-icons a {
+  font-size: 2rem;
+  padding: 1.5rem;
+  align-items: center;
+}
+@media screen and (min-width: 676px) {
+  .sidebar {
+    width: 400px;
+  }
+}
